@@ -1,0 +1,73 @@
+h1{
+    color: rgba(0, 136, 255, 0.809);
+    text-align: center;
+    margin-top: 50px;
+    font-size: 300%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.fot{
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#inpt1{
+    padding: 15px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#inpt2{
+    padding: 15px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+button{
+    cursor: pointer;
+}
+
+#bnt{
+    padding: 15px;
+    width: 230px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba( 0, 136, 255, 0.809);
+    color: white;   
+}
+
+#bnt:hover{
+    background-color:black;
+}
+
+.forg a{
+    color: rgba(0, 106, 255, 0.606);
+    text-decoration: none;
+}
+#cna{
+    padding: 15px;
+    width: 230px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(14, 244, 14, 0.967);
+    color: white;       
+}
+
+#cna:hover{
+    background-color:black;
+}
+
+
+#inpt1::placeholder{
+   font-size: small;
+    /* color: brown; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#inpt2::placeholder{
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
